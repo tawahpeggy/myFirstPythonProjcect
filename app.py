@@ -73,21 +73,37 @@
 # print(23*10)
 
 # Math functions
-import math
-math_functions = -17.5
-print(math.floor(math_functions))
-print(math.ceil(math_functions))
-print(abs(math_functions))
-print(round(math_functions))
-# if statement
-is_hot = True
-is_cold = False
-if is_hot:
-         print("it's a hot day please be sure to drink plenty of water")
-#  if else
-elif is_cold:
-            print("its a cold day be sure to wear warm cloths and stay indoors")
-else:
-    print('its a lovely day')
-print("it's always a lovely day")
+# import math
+# math_functions = -17.5
+# print(math.floor(math_functions))
+# print(math.ceil(math_functions))
+# print(abs(math_functions))
+# print(round(math_functions))
+# # if statement
+# is_hot = True
+# is_cold = False
+# if is_hot:
+#          print("it's a hot day please be sure to drink plenty of water")
+# #  if else
+# elif is_cold:
+#             print("its a cold day be sure to wear warm cloths and stay indoors")
+# else:
+#     print('its a lovely day')
+# print("it's always a lovely day")
+# if else exercise
+house_price = 1000000
+good_credit = True
+good_percent = 10/100
+bad_percent = 20/100
+bad_credit = True
+if good_credit:
+               x = house_price * good_percent
+               print('the down payment  with good_credit is:')
+               print(x)
+elif bad_credit:
+                y = house_price * bad_percent
+                print('the down payment  with bad_credit is:')
 
+                print(y)
+else:
+    print("sorry you can't afford the property")
