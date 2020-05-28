@@ -90,20 +90,95 @@
 # else:
 #     print('its a lovely day')
 # print("it's always a lovely day")
-# if else exercise
-house_price = 1000000
-good_credit = True
-good_percent = 10/100
-bad_percent = 20/100
-bad_credit = True
-if good_credit:
-               x = house_price * good_percent
-               print('the down payment  with good_credit is:')
-               print(x)
-elif bad_credit:
-                y = house_price * bad_percent
-                print('the down payment  with bad_credit is:')
-
-                print(y)
+# # if else exercise
+# house_price = 1000000
+# good_credit = True
+# good_percent = 10/100
+# bad_percent = 20/100
+# bad_credit = True
+# if good_credit:
+#                x = house_price * good_percent
+#                print('the down payment  with good_credit is:')
+#                print(x)
+# elif bad_credit:
+#                 y = house_price * bad_percent
+#                 print('the down payment  with bad_credit is:')
+#
+#                 print(y)
+# else:
+#     print("sorry you can't afford the property")
+# # logical operators
+# # exercises
+# print(' please answer with a True or False ')
+# income = input(' please do you have a steady income? ')
+# good_credit = input(' please have you ever been recommended with a good credit? ')
+# if income == 'True' and good_credit == 'True':
+#     print(' u have been selected for the job ')
+# elif income == 'True' or good_credit == 'True':
+#     print(' you have been selected but will need to go through a 3 months training ')
+# elif good_credit == 'True':
+#     print(''' you have been selected but will need
+#            to increase your income from somewhere in the next 3months so as to get u to
+#            have an increase in 40percent salary ''')
+# elif income == 'True':
+#     print(''' you have been selected but will need good reviews
+#             from somewhere in the next 3months so as to get u to have
+#              an increase in 40 percent salary''')
+# elif income == 'False' and good_credit == 'False':
+#     print(" you have lost the job ")
+# else:
+#     print('re-apply!')
+# # comparative operators
+# # exercise
+# temperature = 30
+# if temperature > 30:
+#     print('its a hot day')
+# elif temperature < 10:
+#     print('its a cold day')
+# else:
+#     print('its neither hot nor cold')
+# # exercise
+# name = input(' please input your name ')
+# if len(name) < 3:
+#     print('name is too short')
+# elif len(name) > 50:
+#     print('name is toooo long')
+# else:
+#     print('name looks good')
+# # project:weight converter
+# weight = input("how much do you weigh ?")
+# type = input(" was your input in kilogram or in pounds ")
+# if type == 'kilogram' or type == 'Kilogram' or type == 'KILOGRAM':
+#     print(f' you are: {int(weight) * 2.205} l(bs)')
+# elif type == 'pounds' or type == 'POUNDS' or type == 'Pounds':
+#     print(f' you are: {int(weight)/2.205} kg')
+# else:
+#     print('you are weightless')
+# while loops
+name = 1
+while name <= 10:
+    print('*' * name)
+    name = name + 1
+print('done')
+# Guessing game challenge
+guess_number = 10
+guess_limit = 3
+guess_time = 0
+while guess_time < guess_limit:
+    guessing_trial = int(input(' please guess a number between 1 to 10 '))
+    guess_time += 1
+    if guessing_trial == guess_number:
+        print('congratulations! You win')
+        break
 else:
-    print("sorry you can't afford the property")
+    print('Sorry Try Again!')
+# # car game
+# start = 'car started! Ready to go'
+# stop = 'car stopped'
+# quit = 'quit'
+# help = input('what do you want')
+# if help==help or help== Help or help==HELP:
+
+
+
+
